@@ -75,6 +75,6 @@ app.post("/generate-pdf", async (req, res) => {
 });
 
 // Start the Express server
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
